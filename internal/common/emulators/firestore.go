@@ -60,6 +60,7 @@ func clearData() {
 	if err != nil {
 		panic(err)
 	}
+	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
 		panic(errors.New("could not clear emulator data"))
