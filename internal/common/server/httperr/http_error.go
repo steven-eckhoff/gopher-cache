@@ -3,8 +3,8 @@ package httperr
 
 import (
 	"github.com/go-chi/render"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/errors"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/logs"
+	"gopher-cache/internal/common/errors"
+	"gopher-cache/internal/common/logs"
 	"net/http"
 )
 

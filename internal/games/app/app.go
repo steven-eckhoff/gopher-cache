@@ -2,8 +2,8 @@
 package app
 
 import (
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app/command"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app/query"
+	"gopher-cache/internal/games/app/command"
+	"gopher-cache/internal/games/app/query"
 )
 
 // Application is the games application.

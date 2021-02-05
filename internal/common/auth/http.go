@@ -4,8 +4,8 @@ package auth
 import (
 	"context"
 	"firebase.google.com/go/auth"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/errors"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/server/httperr"
+	"gopher-cache/internal/common/errors"
+	"gopher-cache/internal/common/server/httperr"
 	"net/http"
 	"strings"
 )

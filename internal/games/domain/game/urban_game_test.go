@@ -1,7 +1,7 @@
 package game
 
 import (
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/rand"
+	"gopher-cache/internal/common/rand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

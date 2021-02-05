@@ -4,12 +4,12 @@ package ports
 import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/auth"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/server/httperr"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app/command"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app/query"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+	"gopher-cache/internal/common/auth"
+	"gopher-cache/internal/common/server/httperr"
+	"gopher-cache/internal/games/app"
+	"gopher-cache/internal/games/app/command"
+	"gopher-cache/internal/games/app/query"
+	"gopher-cache/internal/games/domain/game"
 	"net/http"
 	"strconv"
 )

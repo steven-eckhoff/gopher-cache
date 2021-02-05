@@ -1,6 +1,6 @@
 package query
 
-import "github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+import "gopher-cache/internal/games/domain/game"
 
 // Game represents how Game queries will be presented to clients.
 type Game struct {

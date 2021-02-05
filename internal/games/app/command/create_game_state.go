@@ -3,8 +3,8 @@ package command
 import (
 	"context"
 	"errors"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/logs"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+	"gopher-cache/internal/common/logs"
+	"gopher-cache/internal/games/domain/game"
 )
 
 // CreateGameState represents the command input for creating a game state.

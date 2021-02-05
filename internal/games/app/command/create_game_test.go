@@ -3,9 +3,9 @@ package command
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/emulators"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/adapters"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+	"gopher-cache/internal/common/emulators"
+	"gopher-cache/internal/games/adapters"
+	"gopher-cache/internal/games/domain/game"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

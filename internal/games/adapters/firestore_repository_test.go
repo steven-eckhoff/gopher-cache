@@ -3,9 +3,9 @@ package adapters
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/emulators"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/app/query"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+	"gopher-cache/internal/common/emulators"
+	"gopher-cache/internal/games/app/query"
+	"gopher-cache/internal/games/domain/game"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

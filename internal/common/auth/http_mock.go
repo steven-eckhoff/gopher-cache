@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/dgrijalva/jwt-go/request"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/server/httperr"
+	"gopher-cache/internal/common/server/httperr"
 	"net/http"
 )
 

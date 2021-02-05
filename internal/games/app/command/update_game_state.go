@@ -2,8 +2,8 @@ package command
 
 import (
 	"context"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/common/logs"
-	"github.com/steven-eckhoff/gopher-cache-open/internal/games/domain/game"
+	"gopher-cache/internal/common/logs"
+	"gopher-cache/internal/games/domain/game"
 )
 
 // UpdateGameState represents the command input for updating a game state.
