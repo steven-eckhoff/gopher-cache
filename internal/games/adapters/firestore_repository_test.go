@@ -12,6 +12,8 @@ import (
 )
 
 func TestFirestoreGameRepository_AddGame(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -67,6 +69,8 @@ func TestFirestoreGameRepository_AddGame(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddPlayer(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -107,6 +111,8 @@ func TestFirestoreGameRepository_AddPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddState(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -172,6 +178,8 @@ func TestFirestoreGameRepository_AddState(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddStateAndUpdatePlayer(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -242,6 +250,8 @@ func TestFirestoreGameRepository_AddStateAndUpdatePlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_UpdateState(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -313,6 +323,8 @@ func TestFirestoreGameRepository_UpdateState(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_UpdateStateAndPlayer(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -396,6 +408,8 @@ func TestFirestoreGameRepository_UpdateStateAndPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadGames(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -544,6 +558,8 @@ func TestFirestoreGameRepository_ReadGames(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadPlayer(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
@@ -574,6 +590,8 @@ func TestFirestoreGameRepository_ReadPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadState(t *testing.T) {
+	if testing.Short() { t.Skip() }
+
 	ctx := context.Background()
 
 	client, cleanup := emulators.NewFirestoreClient(ctx)
