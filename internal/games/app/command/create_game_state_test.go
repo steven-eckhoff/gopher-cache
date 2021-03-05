@@ -3,11 +3,11 @@ package command
 import (
 	"context"
 	"github.com/google/uuid"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"gopher-cache/internal/common/emulators"
 	"gopher-cache/internal/games/adapters"
 	"gopher-cache/internal/games/domain/game"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"testing"
 )
 

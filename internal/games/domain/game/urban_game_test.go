@@ -1,9 +1,9 @@
 package game
 
 import (
-	"gopher-cache/internal/common/rand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"gopher-cache/internal/common/rand"
 	"testing"
 )
 

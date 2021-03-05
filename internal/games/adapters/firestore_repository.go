@@ -5,11 +5,11 @@ import (
 	"cloud.google.com/go/firestore"
 	"context"
 	"errors"
-	"gopher-cache/internal/games/app/query"
-	"gopher-cache/internal/games/domain/game"
 	"google.golang.org/api/iterator"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
+	"gopher-cache/internal/games/app/query"
+	"gopher-cache/internal/games/domain/game"
 )
 
 type firestoreGameModel struct {

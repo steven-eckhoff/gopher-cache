@@ -3,16 +3,18 @@ package adapters
 import (
 	"context"
 	"github.com/google/uuid"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"gopher-cache/internal/common/emulators"
 	"gopher-cache/internal/games/app/query"
 	"gopher-cache/internal/games/domain/game"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"testing"
 )
 
 func TestFirestoreGameRepository_AddGame(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -69,7 +71,9 @@ func TestFirestoreGameRepository_AddGame(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddPlayer(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -111,7 +115,9 @@ func TestFirestoreGameRepository_AddPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddState(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -178,7 +184,9 @@ func TestFirestoreGameRepository_AddState(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_AddStateAndUpdatePlayer(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -250,7 +258,9 @@ func TestFirestoreGameRepository_AddStateAndUpdatePlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_UpdateState(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -323,7 +333,9 @@ func TestFirestoreGameRepository_UpdateState(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_UpdateStateAndPlayer(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -408,7 +420,9 @@ func TestFirestoreGameRepository_UpdateStateAndPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadGames(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -558,7 +572,9 @@ func TestFirestoreGameRepository_ReadGames(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadPlayer(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
@@ -590,7 +606,9 @@ func TestFirestoreGameRepository_ReadPlayer(t *testing.T) {
 }
 
 func TestFirestoreGameRepository_ReadState(t *testing.T) {
-	if testing.Short() { t.Skip() }
+	if testing.Short() {
+		t.Skip()
+	}
 
 	ctx := context.Background()
 
